@@ -9,4 +9,4 @@ def dem_so_lan_xuat_hien(lst):
 input_string = input("Nhập danh sách các từ, cách nhau bằng dấu phẩy : ")
 word_list = input_string.split()
 so_lan_xuat_hien = dem_so_lan_xuat_hien(word_list)
-print("Số lần xuất hiện của các phần tử  : ", so_lan_xuat_hien)
+print("Số lần xuất hiện của các phần tử  :", so_lan_xuat_hien)

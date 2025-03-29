@@ -4,7 +4,6 @@ from Crypto.Random import get_random_bytes
 from Crypto.Util.Padding import pad, unpad
 import socket
 import threading
-import hashlib
 
 # Initialize client socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
